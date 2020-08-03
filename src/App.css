@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "Yu Mincho";
+  src: url("./assets/font/yumin.ttf") format("truetype"),
+  }
+
+* {
+  font-family: "Yu Mincho";
+  font-weight: 600;
+}
+
+.day {
+  position: absolute;
+  top: 40px;
+  left: 140px;
+  font-size: 24px
+}
+
+.date {
+  position: absolute;
+  display: flex;
+  top: 40px;
+  right: 140px;
+}
+
+.link {
+  font-size: 16px;
+  margin-left: 10px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.linktitle {
+  font-size: 32px
+}
+
+.image {
+  width: 200px;
+}
+
+.contentContainer {
+  display: flex;
+  justify-content: space-evenly;
+  width: 900px;
+}
+
+@media (max-width: 1050px) {
+  .day {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    font-size: 24px
+  }
+  
+  .date {
+    position: absolute;
+    display: flex;
+    top: 40px;
+    right: 40px;
+  }
+
+  .link {
+    font-size: 12px;
+  }
+  
+  .linktitle {
+    font-size: 24px
+  }
+  
+  .image {
+    width: 163.5px;
+  }
+
+  .contentContainer {
+    display: flex;
+    justify-content: space-evenly;
+    width: 800px;
+  }
+}
