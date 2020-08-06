@@ -1,11 +1,8 @@
 name: 'deploy to Netlify bitch'
 
 on:
-
   push:
-
     branches:
-
       - master
 
 jobs:
