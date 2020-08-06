@@ -3,6 +3,7 @@ import Links from './components/links/links.js'
 import moment from 'moment';
 import Image from './assets/images/image.svg'
 import './App.css';
+import data from './data'
 
 function getDay() {
   let days = ["日曜日", "月曜日", "火曜日", "水曜日", "木曜日", "金曜日", "土曜日"]
@@ -112,54 +113,15 @@ function App() {
         <img className="image" src={Image} alt="logo" />
         <Links
           linktitle={"メジャー"}
-          links={[
-            {
-              link: "インスタ",
-              linkdir: "https://www.instagram.com/"
-            },
-            {
-              link: "ブーック",
-              linkdir: "https://www.facebook.com/"
-            },
-            {
-              link: "ユーチューブ",
-              linkdir: "https://www.youtube.com/"
-            },
-            {
-              link: "レジット",
-              linkdir: "https://www.reddit.com/"
-            }
-          ]}
+          links={data.media}
         />
         <Links
           linktitle={"デヴー"}
-          links={[
-            {
-              link: "ジット",
-              linkdir: "https://www.github.com/"
-            },
-            {
-              link: "スレロ",
-              linkdir: "https://www.trello.com/"
-            }
-          ]}
+          links={data.dev}
         />
         <Links
           linktitle={"アカデミー"}
-          links={[
-            {
-              link: "メール",
-              linkdir: "http://www.imail.sunway.edu.my/"
-            },
-            {
-              link: "アイゾン",
-              linkdir: "https://izone.sunway.edu.my/"
-            },
-            {
-              link: "イーランー",
-              linkdir: "https://elearn.sunway.edu.my/"
-            }
-          ]}
+          links={data.education}
         />
       </div>
     </div>
