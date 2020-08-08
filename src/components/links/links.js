@@ -16,8 +16,8 @@ const Links = props => {
                 {props.links.map(link => <a
                     onMouseOver={() => setHovered(link)}
                     onMouseOut={() => setHovered()}
-                    style={{ textDecoration: 'none', color: isHovered == link ? 'black' : 'grey' }}
-                    href={link.linkdir} 
+                    style={{ textDecoration: 'none', color: isHovered === link ? 'black' : 'grey' }}
+                    href={link.linkdir}
                 >{link.link}</a>)}
             </div>
         </div>
