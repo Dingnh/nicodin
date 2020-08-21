@@ -43,10 +43,6 @@ let data = {
     {
       link: "イーランー",
       linkdir: "https://elearn.sunway.edu.my/"
-    },
-    {
-      link: "タイムテーブル",
-      linkdir: "./DY2S2_Timetable.png"
     }
   ]
 }
