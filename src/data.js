@@ -46,7 +46,7 @@ let data = {
     },
     {
       link: "タイムテーブル",
-      linkdir: "./assets/images/DY2S2_Timetable.png"
+      linkdir: "./DY2S2_Timetable.png"
     }
   ]
 }
