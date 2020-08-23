@@ -62,7 +62,6 @@ function App() {
     container: {
       width: "100vw",
       height: "100vh",
-      backgroundColor: "#e9e9e9",
       display: "flex",
       justifyContent: "center",
       alignItems: "center",
@@ -81,13 +80,6 @@ function App() {
       fontSize: 24,
       marginRight: 20
     },
-    timeContainer: {
-      display: "flex",
-      flexDirection: "column",
-      alignItems: "center",
-      height: 200,
-      marginTop: -150
-    },
     time: {
       fontSize: 32,
       letterSpacing: 6,
@@ -105,24 +97,26 @@ function App() {
         <div style={styles.month}>{getMonth()}</div>
         <div style={styles.date}>{getDate()}</div>
       </div>
-      <div style={styles.timeContainer}>
+      <div className="timeContainer" style={styles.timeContainer}>
         <div style={styles.time}>{moment().format('HH:mm')}</div>
         <div style={styles.greetings}>{getGreetings()}</div>
       </div>
       <div className="contentContainer">
         <img className="image" src={Image} alt="logo" />
-        <Links
-          linktitle={"メジャー"}
-          links={data.media}
-        />
-        <Links
-          linktitle={"デヴー"}
-          links={data.dev}
-        />
-        <Links
-          linktitle={"アカデミー"}
-          links={data.education}
-        />
+        <div className="linkContainer">
+          <Links
+            linktitle={"メジャー"}
+            links={data.media}
+          />
+          <Links
+            linktitle={"デヴー"}
+            links={data.dev}
+          />
+          <Links
+            linktitle={"アカデミー"}
+            links={data.education}
+          />
+        </div>
       </div>
     </div>
   );

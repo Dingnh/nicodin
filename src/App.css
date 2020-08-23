@@ -9,6 +9,10 @@
   color: #3b3b3b
 }
 
+html {
+  background-color: #e9e9e9
+}  
+
 .day {
   position: absolute;
   top: 40px;
@@ -42,7 +46,23 @@
 .contentContainer {
   display: flex;
   justify-content: space-evenly;
-  width: 900px;
+  width: 800px;
+}
+
+.timeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 200px;
+  top: 50px;
+  justify-content: center;
+  position: absolute;
+}
+
+.linkContainer {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
 }
 
 @media (max-width: 1050px) {
@@ -75,6 +95,84 @@
   .contentContainer {
     display: flex;
     justify-content: space-evenly;
-    width: 800px;
+    max-width: 700px;
+    width: 80vw;
   }
+}
+
+@media (max-width: 800px) {
+  .contentContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    justify-content: center;
+  }
+  .timeContainer {
+    display: none;
+  }
+  .linkContainer {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+  }
+  .linkpadding {
+    margin-top: 20px;
+  }
+}
+
+@media (max-height: 750px) {
+  .contentContainer {
+    margin-top: 30vh;
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-height: 500px) {
+  .timeContainer {
+    height: 0px;
+    top: 80px;
+  }
+}
+
+@media (max-height: 400px) {
+  .timeContainer {
+    display: none;
+  }
+}
+
+@media (max-height: 320px) {
+  .day {
+    display: none;
+  }
+
+  .date {
+    display: none;
+  }
+
+  .contentContainer {
+    margin: 0px;
+  }
+}
+
+@media (max-width: 360px) {
+  .day {
+    position: absolute;
+    top: 40px;
+    left: 50px;
+  }
+  
+  .date {
+    position: absolute;
+    display: flex;
+    top: 80px;
+    left: 50px;
+  }
+
+  .contentContainer {
+    margin-top: 350px;
+  }
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
