@@ -13,6 +13,7 @@ const Links = props => {
                     onMouseOut={() => setHovered()}
                     style={{ textDecoration: 'none', color: isHovered === link ? 'black' : 'grey' }}
                     href={link.linkdir}
+                    target="_blank"
                 >{link.link}</a>)}
             </div>
         </div>
