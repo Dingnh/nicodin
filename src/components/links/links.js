@@ -14,6 +14,7 @@ const Links = props => {
                     style={{ textDecoration: 'none', color: isHovered === link ? 'black' : 'grey' }}
                     href={link.linkdir}
                     target="_blank"
+                    rel="noopener noreferrer"
                 >{link.link}</a>)}
             </div>
         </div>
