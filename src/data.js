@@ -29,6 +29,10 @@ let data = {
     {
       link: "スレロ",
       linkdir: "https://www.trello.com/"
+    },
+    {
+      link: "ドライバ",
+      linkdir: "https://drive.google.com/drive/u/1/folders/1nuiCtORLC1NkBcz4rfFN73o3zFmYaWA_"
     }
   ],
   education: [
