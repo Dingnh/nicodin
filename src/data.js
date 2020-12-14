@@ -13,12 +13,12 @@ let data = {
       linkdir: "https://www.youtube.com/"
     },
     {
-      link: "レジット",
-      linkdir: "https://www.reddit.com/"
+      link: "ネットフリックス",
+      linkdir: "https://www.netflix.com/browse"
     },
     {
       link: "アニメ",
-      linkdir: "https://www.gogoanime.movie/"
+      linkdir: "https://ww.gogoanimes.org/"
     },
   ],
   dev: [
