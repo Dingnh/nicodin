@@ -18,7 +18,7 @@ let data = {
     },
     {
       link: "アニメ",
-      linkdir: "https://ww.gogoanimes.org/"
+      linkdir: "https://gogoanime.app/?4"
     },
   ],
   dev: [
