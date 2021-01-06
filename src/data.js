@@ -31,6 +31,10 @@ let data = {
       linkdir: "https://www.trello.com/"
     },
     {
+      link: "ノーシオン",
+      linkdir: "https://www.notion.so/"
+    },
+    {
       link: "ドライバ",
       linkdir: "https://drive.google.com/drive/u/1/folders/1nuiCtORLC1NkBcz4rfFN73o3zFmYaWA_"
     }
