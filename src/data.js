@@ -12,14 +12,6 @@ let data = {
       link: "ユーチューブ",
       linkdir: "https://www.youtube.com/"
     },
-    {
-      link: "ネットフリックス",
-      linkdir: "https://www.netflix.com/browse"
-    },
-    {
-      link: "アニメ",
-      linkdir: "https://gogoanime.app/?4"
-    },
   ],
   dev: [
     {
