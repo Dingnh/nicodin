@@ -12,6 +12,14 @@ let data = {
       link: "ユーチューブ",
       linkdir: "https://www.youtube.com/"
     },
+    {
+      link: "アニメ",
+      linkdir: "https://ww.gogoanimes.org/"
+    },
+    {
+      link: "ユデミ",
+      linkdir: "https://www.udemy.com/"
+    },
   ],
   dev: [
     {
