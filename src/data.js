@@ -35,7 +35,7 @@ let data = {
       linkdir: "https://www.notion.so/"
     },
     {
-      link: "リんッくドイン",
+      link: "リンックドイン",
       linkdir: "https://www.linkedin.com/"
     },
     {
