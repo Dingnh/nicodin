@@ -35,6 +35,10 @@ let data = {
       linkdir: "https://www.notion.so/"
     },
     {
+      link: "リんッくドイン",
+      linkdir: "https://www.linkedin.com/"
+    },
+    {
       link: "ドライバ",
       linkdir: "https://drive.google.com/drive/u/1/folders/1nuiCtORLC1NkBcz4rfFN73o3zFmYaWA_"
     }
