@@ -55,6 +55,10 @@ let data = {
     {
       link: "イーランー",
       linkdir: "https://elearn.sunway.edu.my/"
+    },
+    {
+      link: "メジアム",
+      linkdir: "https://medium.com/"
     }
   ]
 }
