@@ -1,23 +1,23 @@
 @font-face {
   font-family: "Yu Mincho";
-  src: url("./assets/font/yumin.ttf") format("truetype"),
-  }
+  src: url("./assets/font/yumin.ttf") format("truetype");
+}
 
 * {
   font-family: "Yu Mincho";
   font-weight: 600;
-  color: #3b3b3b
+  color: #3b3b3b;
 }
 
 html {
-  background-color: #e9e9e9
-}  
+  background-color: #e9e9e9;
+}
 
 .day {
   position: absolute;
   top: 40px;
   left: 140px;
-  font-size: 24px
+  font-size: 24px;
 }
 
 .date {
@@ -36,7 +36,7 @@ html {
 }
 
 .linktitle {
-  font-size: 32px
+  font-size: 32px;
 }
 
 .image {
@@ -59,6 +59,11 @@ html {
   position: absolute;
 }
 
+.timeContainer a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
 .linkContainer {
   display: flex;
   width: 100%;
@@ -70,9 +75,9 @@ html {
     position: absolute;
     top: 40px;
     left: 40px;
-    font-size: 24px
+    font-size: 24px;
   }
-  
+
   .date {
     position: absolute;
     display: flex;
@@ -83,11 +88,11 @@ html {
   .link {
     font-size: 12px;
   }
-  
+
   .linktitle {
-    font-size: 24px
+    font-size: 24px;
   }
-  
+
   .image {
     width: 163.5px;
   }
@@ -161,7 +166,7 @@ html {
     top: 40px;
     left: 50px;
   }
-  
+
   .date {
     position: absolute;
     display: flex;
