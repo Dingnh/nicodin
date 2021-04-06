@@ -98,7 +98,7 @@ function App() {
         <div style={styles.date}>{getDate()}</div>
       </div>
       <div className="timeContainer" style={styles.timeContainer}>
-        <a href="https://nicodin.netlify.app/DY3S1_Timetable.PNG" target="_blank" style={styles.time}>{moment().format('HH:mm')}</a>
+        <div style={styles.time}>{moment().format('HH:mm')}</div>
         <div style={styles.greetings}>{getGreetings()}</div>
       </div>
       <div className="contentContainer">
