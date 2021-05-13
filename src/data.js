@@ -17,8 +17,8 @@ let data = {
       linkdir: "https://ww.gogoanimes.org/"
     },
     {
-      link: "ユデミ",
-      linkdir: "https://www.udemy.com/"
+      link: "マスタークラス",
+      linkdir: "https://www.masterclass.com/"
     },
   ],
   dev: [

@@ -59,11 +59,6 @@ html {
   position: absolute;
 }
 
-.timeContainer a {
-  cursor: pointer;
-  text-decoration: none;
-}
-
 .linkContainer {
   display: flex;
   width: 100%;
