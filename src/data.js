@@ -49,6 +49,10 @@ let data = {
       linkdir: "http://www.imail.sunway.edu.my/"
     },
     {
+      link: "アゥトルック",
+      linkdir: "https://outlook.live.com/mail/0/inbox"
+    },
+    {
       link: "アイゾン",
       linkdir: "https://izone.sunway.edu.my/"
     },
