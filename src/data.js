@@ -17,8 +17,12 @@ let data = {
       linkdir: "https://ww.gogoanimes.org/"
     },
     {
-      link: "マスタークラス",
+      link: "ネットフリクス",
       linkdir: "https://www.masterclass.com/"
+    },
+    {
+      link: "マスタークラス",
+      linkdir: "https://www.netflix.com/"
     },
   ],
   dev: [
@@ -32,6 +36,10 @@ let data = {
     },
     {
       link: "ノーシオン",
+      linkdir: "https://www.notion.so/"
+    },
+    {
+      link: "ジーラ",
       linkdir: "https://www.notion.so/"
     },
     {
@@ -51,6 +59,10 @@ let data = {
     {
       link: "アゥトルック",
       linkdir: "https://outlook.live.com/mail/0/inbox"
+    },
+    {
+      link: "ジーメール",
+      linkdir: "https://mail.google.com/mail/u/0/"
     },
     {
       link: "アイゾン",
