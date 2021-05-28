@@ -40,7 +40,7 @@ let data = {
     },
     {
       link: "ジーラ",
-      linkdir: "https://www.notion.so/"
+      linkdir: "https://rainchai.atlassian.net/jira/your-work"
     },
     {
       link: "リンックドイン",
