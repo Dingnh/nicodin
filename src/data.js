@@ -17,11 +17,11 @@ let data = {
       linkdir: "https://ww.gogoanimes.org/"
     },
     {
-      link: "ネットフリクス",
+      link: "マスタークラス",
       linkdir: "https://www.masterclass.com/"
     },
     {
-      link: "マスタークラス",
+      link: "ネットフリクス",
       linkdir: "https://www.netflix.com/"
     },
   ],
