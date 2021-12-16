@@ -40,8 +40,7 @@ let data = {
     },
     {
       link: "ドライバ",
-      linkdir:
-        "https://drive.google.com/drive/u/1/folders/1nuiCtORLC1NkBcz4rfFN73o3zFmYaWA_",
+      linkdir: "https://drive.google.com/",
     },
     {
       link: "ラーボ",
