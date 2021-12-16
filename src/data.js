@@ -2,81 +2,78 @@ let data = {
   media: [
     {
       link: "インスタ",
-      linkdir: "https://www.instagram.com/"
+      linkdir: "https://www.instagram.com/",
     },
     {
       link: "ブーック",
-      linkdir: "https://www.facebook.com/"
+      linkdir: "https://www.facebook.com/",
     },
     {
       link: "ユーチューブ",
-      linkdir: "https://www.youtube.com/"
+      linkdir: "https://www.youtube.com/",
     },
     {
       link: "アニメ",
-      linkdir: "https://ww.gogoanimes.org/"
-    },
-    {
-      link: "マスタークラス",
-      linkdir: "https://www.masterclass.com/"
+      linkdir: "https://gogoanime.moe/",
     },
     {
       link: "ネットフリクス",
-      linkdir: "https://www.netflix.com/"
+      linkdir: "https://www.netflix.com/",
     },
   ],
   dev: [
     {
       link: "ジット",
-      linkdir: "https://www.github.com/"
+      linkdir: "https://www.github.com/",
     },
     {
       link: "スレロ",
-      linkdir: "https://www.trello.com/"
+      linkdir: "https://trello.com/b/kKCJrOpx/n-i-c-c",
     },
     {
       link: "ノーシオン",
-      linkdir: "https://www.notion.so/"
-    },
-    {
-      link: "ジーラ",
-      linkdir: "https://rainchai.atlassian.net/jira/your-work"
+      linkdir: "https://www.notion.so/",
     },
     {
       link: "リンックドイン",
-      linkdir: "https://www.linkedin.com/"
+      linkdir: "https://www.linkedin.com/",
     },
     {
       link: "ドライバ",
-      linkdir: "https://drive.google.com/drive/u/1/folders/1nuiCtORLC1NkBcz4rfFN73o3zFmYaWA_"
-    }
+      linkdir:
+        "https://drive.google.com/drive/u/1/folders/1nuiCtORLC1NkBcz4rfFN73o3zFmYaWA_",
+    },
+    {
+      link: "ラーボ",
+      linkdir: "https://gitlab.com/",
+    },
   ],
   education: [
     {
       link: "メール",
-      linkdir: "http://www.imail.sunway.edu.my/"
+      linkdir: "http://www.imail.sunway.edu.my/",
     },
     {
       link: "アゥトルック",
-      linkdir: "https://outlook.live.com/mail/0/inbox"
+      linkdir: "https://outlook.live.com/mail/0/inbox",
     },
     {
       link: "ジーメール",
-      linkdir: "https://mail.google.com/mail/u/0/"
+      linkdir: "https://mail.google.com/mail/u/0/",
     },
     {
       link: "アイゾン",
-      linkdir: "https://izone.sunway.edu.my/"
+      linkdir: "https://izone.sunway.edu.my/",
     },
     {
       link: "イーランー",
-      linkdir: "https://elearn.sunway.edu.my/"
+      linkdir: "https://elearn.sunway.edu.my/",
     },
     {
-      link: "メジアム",
-      linkdir: "https://medium.com/"
-    }
-  ]
-}
+      link: "ゥエッビ",
+      linkdir: "https://webmail.webby.com.my/",
+    },
+  ],
+};
 
-export default data
+export default data;
