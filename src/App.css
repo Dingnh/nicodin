@@ -65,6 +65,15 @@ html {
   justify-content: space-evenly;
 }
 
+.horizontalLine {
+  display: none;
+  position: absolute;
+  top: 100px;
+  height: 1px;
+  width: calc(100% - 80px);
+  background-color: #3b3b3b;
+}
+
 @media (max-width: 1050px) {
   .day {
     position: absolute;
@@ -80,17 +89,17 @@ html {
     right: 40px;
   }
 
-  .link {
+  /* .link {
     font-size: 12px;
   }
 
   .linktitle {
     font-size: 24px;
-  }
+  } */
 
-  .image {
+  /* .image {
     width: 163.5px;
-  }
+  } */
 
   .contentContainer {
     display: flex;
@@ -101,23 +110,52 @@ html {
 }
 
 @media (max-width: 800px) {
+  .horizontalLine {
+    display: block;
+  }
+
   .contentContainer {
     display: flex;
     flex-wrap: wrap;
-    width: 200px;
     justify-content: center;
+    width: 100%;
+    position: absolute;
+    bottom: 40px;
+    max-width: none;
   }
-  .timeContainer {
+  .contentContainer .image {
     display: none;
   }
-  .linkContainer {
+  .contentContainer .linkContainer {
     display: flex;
     flex-direction: column;
-    width: auto;
+    justify-content: space-between;
+    padding: 0px 40px;
+    /* padding-top: 100px; */
   }
-  .linkpadding {
+  .contentContainer .linkContainer .linkpadding {
+    padding: 20px;
     margin-top: 20px;
-    margin-left: 20px;
+    border: #3b3b3b 1px solid;
+  }
+  .contentContainer .linkContainer .linkpadding .linktitle {
+    font-size: 32px;
+  }
+  .contentContainer .linkContainer .linkpadding .link {
+    font-size: 18px;
+  }
+  .timeContainer {
+    height: auto;
+    top: 120px;
+    left: 40px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .timeContainer div {
+    font-size: 24px !important;
+  }
+  .timeContainer :last-of-type {
+    display: none;
   }
 }
 
@@ -141,7 +179,23 @@ html {
   }
 }
 
-@media (max-height: 320px) {
+/* @media (max-width: 360px) {
+  .day {
+    position: absolute;
+    top: 40px;
+  }
+
+  .date {
+    position: absolute;
+    display: flex;
+  }
+
+  .contentContainer {
+    margin-top: 350px;
+  }
+} */
+
+/* @media (max-height: 320px) {
   .day {
     display: none;
   }
@@ -153,26 +207,7 @@ html {
   .contentContainer {
     margin: 0px;
   }
-}
-
-@media (max-width: 360px) {
-  .day {
-    position: absolute;
-    top: 40px;
-    left: 50px;
-  }
-
-  .date {
-    position: absolute;
-    display: flex;
-    top: 80px;
-    left: 50px;
-  }
-
-  .contentContainer {
-    margin-top: 350px;
-  }
-}
+} */
 
 ::-webkit-scrollbar {
   display: none;

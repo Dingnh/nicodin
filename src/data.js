@@ -13,15 +13,11 @@ let data = {
       linkdir: "https://www.youtube.com/",
     },
     {
-      link: "アニメ",
-      linkdir: "https://gogoanime.moe/",
-    },
-    {
       link: "ネットフリクス",
       linkdir: "https://www.netflix.com/",
     },
   ],
-  dev: [
+  work: [
     {
       link: "ジット",
       linkdir: "https://www.github.com/",
@@ -47,7 +43,7 @@ let data = {
       linkdir: "https://gitlab.com/",
     },
   ],
-  education: [
+  mail: [
     {
       link: "メール",
       linkdir: "http://www.imail.sunway.edu.my/",
@@ -61,16 +57,8 @@ let data = {
       linkdir: "https://mail.google.com/mail/u/0/",
     },
     {
-      link: "アイゾン",
-      linkdir: "https://izone.sunway.edu.my/",
-    },
-    {
       link: "イーランー",
       linkdir: "https://elearn.sunway.edu.my/",
-    },
-    {
-      link: "ゥエッビ",
-      linkdir: "https://webmail.webby.com.my/",
     },
   ],
 };
