@@ -13,6 +13,10 @@ let data = {
       linkdir: "https://www.youtube.com/",
     },
     {
+      link: "リンックドイン",
+      linkdir: "https://www.linkedin.com/",
+    },
+    {
       link: "ネットフリクス",
       linkdir: "https://www.netflix.com/",
     },
@@ -31,8 +35,8 @@ let data = {
       linkdir: "https://www.notion.so/",
     },
     {
-      link: "リンックドイン",
-      linkdir: "https://www.linkedin.com/",
+      link: "スイングビ",
+      linkdir: "https://secure.swingvy.com/main.html#/home",
     },
     {
       link: "ドライバ",
@@ -55,10 +59,6 @@ let data = {
     {
       link: "ジーメール",
       linkdir: "https://mail.google.com/mail/u/0/",
-    },
-    {
-      link: "イーランー",
-      linkdir: "https://elearn.sunway.edu.my/",
     },
   ],
 };

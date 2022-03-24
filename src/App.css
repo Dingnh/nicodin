@@ -120,7 +120,7 @@ html {
     justify-content: center;
     width: 100%;
     position: absolute;
-    bottom: 40px;
+    /* bottom: 40px; */
     max-width: none;
   }
   .contentContainer .image {
