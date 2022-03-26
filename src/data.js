@@ -20,6 +20,10 @@ let data = {
       link: "ネットフリクス",
       linkdir: "https://www.netflix.com/",
     },
+    {
+      link: "ニュース",
+      linkdir: "https://news.ycombinator.com/",
+    },
   ],
   work: [
     {

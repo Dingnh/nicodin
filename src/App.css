@@ -131,7 +131,7 @@ html {
     flex-direction: column;
     justify-content: space-between;
     padding: 0px 40px;
-    /* padding-top: 100px; */
+    padding-top: 75px;
   }
   .contentContainer .linkContainer .linkpadding {
     padding: 20px;
@@ -139,10 +139,10 @@ html {
     border: #3b3b3b 1px solid;
   }
   .contentContainer .linkContainer .linkpadding .linktitle {
-    font-size: 32px;
+    font-size: 24px;
   }
   .contentContainer .linkContainer .linkpadding .link {
-    font-size: 18px;
+    font-size: 16px;
   }
   .timeContainer {
     height: auto;
