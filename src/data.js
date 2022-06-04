@@ -31,8 +31,8 @@ let data = {
       linkdir: "https://www.github.com/",
     },
     {
-      link: "スレロ",
-      linkdir: "https://trello.com/b/kKCJrOpx/n-i-c-c",
+      link: "レンジ",
+      linkdir: "https://range.co/mindworks/home",
     },
     {
       link: "ノーシオン",
