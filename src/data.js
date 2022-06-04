@@ -16,14 +16,6 @@ let data = {
       link: "リンックドイン",
       linkdir: "https://www.linkedin.com/",
     },
-    {
-      link: "ネットフリクス",
-      linkdir: "https://www.netflix.com/",
-    },
-    {
-      link: "ニュース",
-      linkdir: "https://news.ycombinator.com/",
-    },
   ],
   work: [
     {
@@ -51,11 +43,7 @@ let data = {
       linkdir: "https://gitlab.com/",
     },
   ],
-  mail: [
-    {
-      link: "メール",
-      linkdir: "http://www.imail.sunway.edu.my/",
-    },
+  info: [
     {
       link: "アゥトルック",
       linkdir: "https://outlook.live.com/mail/0/inbox",
@@ -63,6 +51,14 @@ let data = {
     {
       link: "ジーメール",
       linkdir: "https://mail.google.com/mail/u/0/",
+    },
+    {
+      link: "ハッカー",
+      linkdir: "https://news.ycombinator.com/",
+    },
+    {
+      link: "ニュース",
+      linkdir: "https://newswav.com",
     },
   ],
 };

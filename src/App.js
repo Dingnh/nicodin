@@ -123,7 +123,7 @@ function App() {
         <div className="linkContainer">
           <Links linktitle={"メジャー"} links={data.media} />
           <Links linktitle={"シゴト"} links={data.work} />
-          <Links linktitle={"メール"} links={data.mail} />
+          <Links linktitle={"ジョウホ"} links={data.info} />
         </div>
       </div>
     </div>
