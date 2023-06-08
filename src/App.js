@@ -1,8 +1,8 @@
-import React from "react";
-import Links from "./components/links/links.js";
 import moment from "moment";
-import Image from "./assets/images/image.svg";
+import React from "react";
 import "./App.css";
+import Image from "./assets/images/image.svg";
+import Links from "./components/links/links.js";
 import data from "./data";
 
 function getDay() {
@@ -76,8 +76,8 @@ function getGreetings() {
 function App() {
   const styles = {
     container: {
-      width: "100vw",
-      height: "100vh",
+      minWidth: "100dvw",
+      minHeight: "100dvh",
       display: "flex",
       justifyContent: "center",
       alignItems: "center",
@@ -107,13 +107,14 @@ function App() {
   };
 
   return (
-    <div style={styles.container}>
-      <div className="day">{getDay()}</div>
-      <div className="date">
-        <div style={styles.month}>{getMonth()}</div>
-        <div style={styles.date}>{getDate()}</div>
+    <div style={styles.container} className="container">
+      <div className="header">
+        <div className="day">{getDay()}</div>
+        <div className="date">
+          <div style={styles.month}>{getMonth()}</div>
+          <div style={styles.date}>{getDate()}</div>
+        </div>
       </div>
-      <div className="horizontalLine" />
       <div className="timeContainer" style={styles.timeContainer}>
         <div style={styles.time}>{moment().format("HH:mm")}</div>
         <div style={styles.greetings}>{getGreetings()}</div>

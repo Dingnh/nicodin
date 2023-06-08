@@ -89,18 +89,6 @@ html {
     right: 40px;
   }
 
-  /* .link {
-    font-size: 12px;
-  }
-
-  .linktitle {
-    font-size: 24px;
-  } */
-
-  /* .image {
-    width: 163.5px;
-  } */
-
   .contentContainer {
     display: flex;
     justify-content: space-evenly;
@@ -110,18 +98,38 @@ html {
 }
 
 @media (max-width: 800px) {
-  .horizontalLine {
-    display: block;
+  .container {
+    justify-content: start !important;
   }
-
+  .header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+  }
+  .day {
+    position: relative;
+    top: 0px;
+    left: 20px;
+  }
+  .date {
+    position: relative;
+    top: 0px;
+    right: 20px;
+  }
+  .timeContainer {
+    display: none;
+  }
   .contentContainer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
     position: absolute;
-    /* bottom: 40px; */
     max-width: none;
+    top: 40px;
+    padding-bottom: 20px;
   }
   .contentContainer .image {
     display: none;
@@ -130,8 +138,7 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 0px 40px;
-    padding-top: 75px;
+    padding: 0px 20px;
   }
   .contentContainer .linkContainer .linkpadding {
     padding: 20px;
@@ -160,54 +167,11 @@ html {
 }
 
 @media (max-height: 750px) {
-  .contentContainer {
+  /* .contentContainer {
     margin-top: 30vh;
     margin-bottom: 50px;
-  }
+  } */
 }
-
-@media (max-height: 500px) {
-  .timeContainer {
-    height: 0px;
-    top: 80px;
-  }
-}
-
-@media (max-height: 400px) {
-  .timeContainer {
-    display: none;
-  }
-}
-
-/* @media (max-width: 360px) {
-  .day {
-    position: absolute;
-    top: 40px;
-  }
-
-  .date {
-    position: absolute;
-    display: flex;
-  }
-
-  .contentContainer {
-    margin-top: 350px;
-  }
-} */
-
-/* @media (max-height: 320px) {
-  .day {
-    display: none;
-  }
-
-  .date {
-    display: none;
-  }
-
-  .contentContainer {
-    margin: 0px;
-  }
-} */
 
 ::-webkit-scrollbar {
   display: none;
