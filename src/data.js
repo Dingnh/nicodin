@@ -1,64 +1,55 @@
 let data = {
   media: [
     {
-      link: "インスタ",
+      link: "Instagram",
       linkdir: "https://www.instagram.com/",
     },
     {
-      link: "ブーック",
+      link: "Facebook",
       linkdir: "https://www.facebook.com/",
     },
     {
-      link: "ユーチューブ",
+      link: "Youtube",
       linkdir: "https://www.youtube.com/",
     },
     {
-      link: "リンックドイン",
+      link: "LinkedIn",
       linkdir: "https://www.linkedin.com/",
     },
   ],
   work: [
     {
-      link: "ジット",
+      link: "Jira",
+      linkdir:
+        "https://gcexchange.atlassian.net/jira/software/c/projects/GCX/boards/8?assignee=63e9f61540d0fe709073c356",
+    },
+    {
+      link: "Github",
       linkdir: "https://www.github.com/",
     },
     {
-      link: "レンジ",
-      linkdir: "https://range.co/mindworks/home",
+      link: "Confluence",
+      linkdir: "https://gcexchange.atlassian.net/wiki/home",
     },
     {
-      link: "ノーシオン",
-      linkdir: "https://www.notion.so/",
-    },
-    {
-      link: "スイングビ",
-      linkdir: "https://secure.swingvy.com/main.html#/home",
-    },
-    {
-      link: "ドライバ",
-      linkdir: "https://drive.google.com/",
-    },
-    {
-      link: "ラーボ",
-      linkdir: "https://gitlab.com/",
+      link: "Sharepoint",
+      linkdir:
+        "https://gcexchange.sharepoint.com/sites/GCEFileRepo/Shared%20Documents/Forms/AllItems.aspx?newTargetListUrl=%2Fsites%2FGCEFileRepo%2FShared%20Documents&viewpath=%2Fsites%2FGCEFileRepo%2FShared%20Documents%2FForms%2FAllItems%2Easpx&id=%2Fsites%2FGCEFileRepo%2FShared%20Documents%2F1%2E%20Technical&viewid=5dc2605f%2D8d58%2D446d%2Dbf44%2Dc52586a97002",
     },
   ],
   info: [
     {
-      link: "アゥトルック",
-      linkdir: "https://outlook.live.com/mail/0/inbox",
-    },
-    {
-      link: "ジーメール",
+      link: "Gmail",
       linkdir: "https://mail.google.com/mail/u/0/",
     },
     {
-      link: "ハッカー",
-      linkdir: "https://news.ycombinator.com/",
+      link: "Outlook",
+      linkdir: "https://outlook.live.com/mail/0/inbox",
     },
     {
-      link: "ニュース",
-      linkdir: "https://newswav.com",
+      link: "Microsoft Teams",
+      linkdir:
+        "https://teams.microsoft.com/_#/conversations/19:meeting_MjM5ZDZhMzMtZjRhZS00YmI5LWJlNDEtNWNjNDcwYTU4Yzdk@thread.v2?ctx=chat",
     },
   ],
 };
